@@ -26,5 +26,10 @@
 
 ### 2.SLAM算法部分
 
-源码地址：https://github.com/vishomework/VoxelSlam/tree/dev_wxm ， 所有需要注意的细节和踩的坑都可见该仓库 README.md（Ubuntu输入法坏了，故仓库readme用英文写的）。
+源码地址：https://github.com/vishomework/VoxelSlam/tree/dev_wxm ， 所有需要注意的细节和踩的坑都可见该仓库 README.md（Ubuntu输入法坏了，故仓库readme用英文写的）。能正常建图发出 `/map` 话题，并能给导航框架提供正常的定位信息（ tf 树，`/odom->/base_link` 坐标变换）。下图测试使用的是数据包，但tf树来源于采用的实体雷达连接时截图。
+![3a335d1a61988dce4f080db031d445a7](https://github.com/user-attachments/assets/0ef84b95-d51e-4980-8505-6bb9e777e848)
+<img width="2585" height="1441" alt="0fe1eecdf07b9d0a65a1c63f7176b2de" src="https://github.com/user-attachments/assets/17385d1f-915e-4f21-b243-1542b93c9c6d" />
+<img width="1570" height="900" alt="b6a2fae4c7b71cda6a9775fb53aa1c33" src="https://github.com/user-attachments/assets/df596d9e-e78e-480d-9615-ae2270ddd38e" />
+
+
 
